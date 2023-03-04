@@ -8,7 +8,6 @@ const { IamAuthenticator } = require('ibm-watson/auth');
 const sound = require("sound-play");
 const path = require("path");
 
-
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine","ejs");
